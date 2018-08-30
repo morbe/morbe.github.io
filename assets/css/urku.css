@@ -75,7 +75,7 @@ div {
 
 .rk-header {
 
-  background-color: -webkit-linear-gradient(left, transparent 0%,#264CAA 50%,transparent 100%);
+  background: linear-gradient(to bottom, rgba(101, 190, 227, 1), rgba(115, 205, 227, 1));
   position: relative;
   z-index: 5;
 }
@@ -1995,8 +1995,8 @@ div {
 .rk-menu__item {
   color: #fff;
   display: inherit;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: .6rem;
+  padding-right: .6rem;
 }
 
 .project-menu__item{
@@ -2021,8 +2021,10 @@ div {
   padding-right: 0;
 }
 .rk-menu__item.active {
-  color: #a0a0a0;
+  border-bottom: 2px solid white;
 }
+
+
 .rk-menu__link {
   padding-bottom: 1.2rem;
 }
