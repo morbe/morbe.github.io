@@ -10,6 +10,12 @@ body {
   margin: 0;
 }
 
+div {
+    text-align:justify;  
+    text-justify:auto;
+}
+
+
 .container {
     margin: 10px;
     width: 115px;
@@ -68,7 +74,8 @@ body {
 }
 
 .rk-header {
-  background-color: #264CAA;
+
+  background-color: -webkit-linear-gradient(left, transparent 0%,#264CAA 50%,transparent 100%);
   position: relative;
   z-index: 5;
 }
